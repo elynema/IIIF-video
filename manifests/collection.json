@@ -11,5 +11,11 @@
       "en" : [ "Video Example 3" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://elynema.github.io/IIIF-video/manifests/av-manifest.json",
+    "label" : {
+      "en" : [ "Video Example 3" ]
+    },
+    "type" : "Manifest"
   } ]
 }
