@@ -1,0 +1,33 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://elynema.github.io/IIIF-video/manifests/av-manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Video Example 3" ]
+  },
+  "items" : [ {
+    "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas",
+    "type" : "Canvas",
+    "height" : 480,
+    "width" : 640,
+    "duration" : 911,
+    "items" : [ {
+      "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas/page/annotation",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "http://localhost:8887/atomic-video.mp4",
+          "type" : "Video",
+          "height" : 480,
+          "width" : 640,
+          "duration" : 911,
+          "format" : "video/mp4"
+        },
+        "target" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/canvas"
+      } ]
+    } ]
+  } ]
+}
