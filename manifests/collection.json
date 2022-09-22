@@ -1,0 +1,15 @@
+{
+  "id" : "https://elynema.github.io/IIIF-video/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in elynema/IIIF-video project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://elynema.github.io/IIIF-video/manifests/av_manifest.json",
+    "label" : {
+      "en" : [ "Video Example 3" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
